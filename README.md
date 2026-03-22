@@ -23,6 +23,9 @@ ArvyaX is designed to handle real-world, messy emotional data:
 - **Intensity:** 1-5 ordinal scale (treated as regression)
 - **Evaluation:** Classification accuracy, MAE, confidence calibration, decision quality
 
+### NoteBook
+- [launch Colab](https://drive.google.com/file/d/1IqmaTAlL4_PgtWsT8_feGy9pICzIgjdV/view?usp=sharing)
+
 ---
 
 ## ⚡ Quick Start
