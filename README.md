@@ -184,10 +184,10 @@ Evaluated 4 configurations on emotional state prediction:
 |-------|------------------|------|
 | A: TF-IDF only | 0.5846 | Classical NLP baseline |
 | B: MiniLM only | 0.5630 | Deep embeddings alone |
-| **C: MiniLM + Metadata** | **0.5807** | ✅ **Final model** |
-| D: TF-IDF + Metadata | 0.5888 | Slight edge, but less semantic |
+| **C: MiniLM + Metadata** | **0.5807** | symentic but suboptimal |
+| D: TF-IDF + Metadata | 0.5888 | **Final model** |
 
-**Conclusion:** MiniLM + metadata balances semantic understanding with contextual signals.
+**Conclusion:** "Initial tests showed TF-IDF outperforming dense transformer embeddings (MiniLM). However, combining unrestricted TF-IDF with metadata resulted in feature drowning, where the sparse text matrix overshadowed the valuable context signals. By artificially constraining the TF-IDF vocabulary, I was able to prove that metadata does hold predictive power (Model D > Model A), highlighting the delicate balance between text richness and contextual metadata.
 
 ---
 
